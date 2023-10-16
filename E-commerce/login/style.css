@@ -1,0 +1,58 @@
+
+  /* Estilos para o formulário */
+
+  .g-3, .gy-3 {
+    --bs-gutter-y: -0.5rem !important;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para os rótulos dos campos */
+  label {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(51, 234, 76);
+  }
+
+  /* Estilos para os campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Estilos para o botão */
+  button[type="submit"] {
+    text-transform: uppercase;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    color: rgb(51, 234, 76);
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 200ms ease-in;
+    margin: 10px 90px 0px;
+    padding: 11px 50px 10px 50px;
+    font-size: 9px;
+   
+  }
+  button[type="submit"]:hover{
+    border: 1px solid rgb(51, 234, 76);
+    background-color: transparent;
+    color:white ;
+}
+

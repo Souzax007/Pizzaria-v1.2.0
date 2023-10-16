@@ -1,0 +1,89 @@
+.janela{
+    width: 70%;
+    min-height: 50%;
+    background-color: rgba(0, 0, 0, 0.231);
+    justify-content: center;
+    align-items: center;
+}
+.janela_px {
+    width: 800px;
+    min-height: 90px;
+    margin: 0 auto;
+    padding: 15px;
+    float: none !important; 
+    clear: both !important;
+}
+
+.pedido_caixa {
+    width: 800px;
+    min-height: 90px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0 0 15px 0;  
+}
+
+.pedido{
+    /*position: relative;*/
+    float: left;
+    width: 70%;
+    margin: 0 10% 0 0; /*superior direita inferior esquerda*/
+ 
+}
+.pedido h3{
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+.pedido p {
+    margin: 7px 0 0 0;
+    display: block;
+}
+
+.valor{
+    font-weight: bold; 
+    text-transform: uppercase;
+    color: #004507;
+    display: block;
+    margin: 7px 0 0 0;
+}
+.funcao{
+    width: 12%;
+    float: right;
+    margin: 17px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.funcao input{
+    width: 38px;
+    height: 22px;
+    border: 1px solid #888;
+    background: #F5F1F1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.funcao button{
+    padding: 6px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    margin: 5px;
+}
+.finalizar{
+    width: 150px;
+    height: 48px;
+    margin-left: 80%;
+    font-size: 20px;
+    background-color: #4fd00e;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition:all 200ms ease-in;
+    border: 2px solid rgb(255, 255, 255);
+}
+.finalizar:hover {
+    background-color: transparent;
+    border:1px solid #4fd00e;
+    color: #4fd00e;
+
+}
